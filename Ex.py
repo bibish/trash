@@ -21,4 +21,16 @@ class definePrice:
     
   class display:
     
-    def __init__(self, dest, exp, weight,
+    def __init__(self, dest, exp, weight, format, type, vol):
+      self.dest = dest
+      self.exp = exp
+      self.weight = weight
+      self.format = format
+      self.type = type
+      self.vol = vol
+      
+    def _print(self)
+      if ( type == 'letter' )
+        print('cout de la lettre', definePrice.letterPrice(self))
+      else 
+        print('cout du colis')
