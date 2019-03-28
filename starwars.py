@@ -1,3 +1,4 @@
+#exo Mongo 
 import pymongo
 from pymongo import MongoClient
 
@@ -13,10 +14,9 @@ dataUser = {
 
 users = db.users
 users.insert_one(dataUser)
-
-
-
 db.users.list_indexes() 
+
+#exo starwars
 import pandas as pd
 import requests
 peoples = []
